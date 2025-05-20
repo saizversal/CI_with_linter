@@ -1,0 +1,16 @@
+{
+  "name": "node-lint-security-app",
+  "version": "1.0.0",
+  "description": "A Node.js app with linting and security checks",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint . --ext .js",
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
+}
